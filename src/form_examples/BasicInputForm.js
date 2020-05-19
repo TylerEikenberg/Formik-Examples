@@ -94,18 +94,11 @@ export default BasicInputForm;
 const BasicForm = styled(Form)`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: space-between;
-  height: 80%;
 `;
 
-const BasicField = styled(Field)`
-  font-size: 1rem;
-`;
+const BasicField = styled(Field)``;
 
-const Button = styled.button`
-  font-size: 1rem;
-`;
+const Button = styled.button``;
 
 const ErrorSpan = styled.span`
   font-size: 0.8rem;

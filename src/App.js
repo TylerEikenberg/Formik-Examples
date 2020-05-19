@@ -16,10 +16,10 @@ export default function App() {
         <BasicInputForm />
       </div>
       <div className="formContainer">
-        <TuesdayExample />
+        <NoFormikForm />
       </div>
       <div className="formContainer">
-        <NoFormikForm />
+        <TuesdayExample />
       </div>
     </div>
   );
